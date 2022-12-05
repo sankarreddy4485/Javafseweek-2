@@ -53,7 +53,19 @@ class BMICalculatorTest {
 
 			// then
 			assertThrows(ArithmeticException.class, executable);
+		}@Test
+		void should_ReturnFalse_When_DietRecommended() {
+			// given
+			double weight = 50.0;
+			double height = 0.92;
+
+			// when
+			boolean recommended = BMICalculator.isDietRecommended(weight, height);
+
+			// then
+			assertTrue(recommended);
 		}
+		
 	}
 	@Nested
 	@DisplayName("{}{{}} sample inner class display name")

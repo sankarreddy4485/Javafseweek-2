@@ -5,6 +5,11 @@ public class DietPlan {
 	private int protein;
 	private int fat;
 	private int carbohydrate;
+	 
+	public DietPlan() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public DietPlan(int calories, int protein, int fat, int carbohydrate) {
 		super();
 		this.calories = calories;
