@@ -6,6 +6,12 @@ public class Coder {
 	private double weight;
 	private int age;
 	private Gender gender;
+	
+	
+	public Coder() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public Coder(double height, double weight) {
 		super();
 		this.height = height;
